@@ -1,0 +1,34 @@
+<div ng-if="home.errorMsg" class="error">{{home.errorMsg}}</div>
+<div class="container">
+  <div class="row col-xs-12">
+    <div class="col-xs-4">User Name:</div>
+    <div class="col-xs-8"><input class="input-sm" type="text" ng-model="home.userName"/></div>
+  </div>
+  <div class="row col-xs-12">
+    <div class="col-xs-4">Password:</div>
+    <div class="col-xs-8"><input class="input-sm" type="password" ng-model="home.password"/></div>
+  </div>
+  <div class="row col-xs-12">
+    <div class="col-xs-4">Confirm Password:</div>
+    <div class="col-xs-8"><input class="input-sm" type="password" ng-model="home.confirmPassword"/></div>
+  </div>
+  <div class="row col-xs-12">
+    <div class="col-xs-4">First Name:</div>
+    <div class="col-xs-8"><input class="input-sm" type="text" ng-model="home.firstName"/></div>
+  </div>
+  <div class="row col-xs-12">
+    <div class="col-xs-4">Last Name:</div>
+    <div class="col-xs-8"><input class="input-sm" type="text" ng-model="home.lastName"/></div>
+  </div>
+  <div class="row col-xs-12">
+    <div class="col-xs-4">Mobile No.:</div>
+    <div class="col-xs-8"><input class="input-sm" type="number" ng-model="home.mobileNumber"/></div>
+  </div>
+  <div class="row col-xs-12">
+    <div class="col-xs-4">Email</div>
+    <div class="col-xs-8"><input class="input-sm" type="email" ng-model="home.emailId"/></div>
+  </div>
+  <div class="row col-xs-12">
+    <div class="col-xs-4"><input class="btn btn-primary" type="button" value="Register" ng-click="home.initRegister()"/></div>
+  </div>
+</div>
